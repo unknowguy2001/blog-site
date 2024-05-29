@@ -21,8 +21,8 @@ const Navbar = () => {
             key={index}
             className={
               path == navItem.path
-                ? "font-bold px-2 rounded-xl bg-white/25 isolate shadow-xl ring-1 ring-black/5"
-                : "hover:font-semibold px-2 rounded-xl"
+                ? "font-bold bg-white/25 isolate shadow-xl ring-1 ring-black/5"
+                : "hover:font-semibold" + " px-2 rounded-xl"
             }
             href={navItem.path}
           >
