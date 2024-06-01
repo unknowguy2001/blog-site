@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex justify-center items-center py-3 text-base lg:text-2xl">
+    <nav className="flex justify-center items-center py-3 text-base sticky top-1 lg:text-2xl">
       <div className="flex gap-3  py-2 px-8 rounded-xl bg-white/20 isolate shadow-lg ring-1 ring-black/5">
         {navItems.map((navItem, index) => (
           <Link
